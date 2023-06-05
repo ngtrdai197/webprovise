@@ -60,6 +60,12 @@ $ npm run test:cov
 
 ## Check the results with GraphQL
 
+- Please start the app on the `dev` environment before accessing the playground, because the playground is disabled on the `prod`
+
+```bash
+npm run start:dev
+```
+
 - Visit the url to check with playground: [Playground](http://localhost:3000/graphql)
 - Query example:
 
