@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type CompanyTreeDto {
+  id: String!
+  name: String!
+  createdAt: Date!
+  parentId: String!
+  cost: String!
+  children: [CompanyTreeDto!]!
+}
+
+"""Date custom scalar type"""
+scalar Date
+
+type Query {
+  getWebProvise: [CompanyTreeDto!]!
+}
